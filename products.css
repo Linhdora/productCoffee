@@ -1,0 +1,92 @@
+body{
+    margin:0;
+}
+.hero{
+    background-image: url('image/hero-image.jpg');
+    background-size: cover;
+    background-position: center 60%;
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+}
+.hero-title{
+  font-family: "Alfa Slab One", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.gategory h2{
+    color: #6F4E37;
+    font-family: "Baloo 2", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+#searchInput{
+    padding: 10px;
+    font-size: 16px;
+    width: 300px;
+    border-radius:10px;
+
+}
+#searchButton{
+    position: absolute;
+    right:29%;
+    background-color: #6F4E37;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 10px;
+}
+#searchButton:hover{
+    background-color: white;
+    border:1px solid #6F4E37;
+    color: #6F4E37;
+}
+.filter-bar{
+display:flex;
+gap:10px;
+flex-wrap:wrap;
+}
+
+.filter-btn{
+border:1px solid #ddd;
+background:white;
+padding:8px 15px;
+border-radius:20px;
+font-size:14px;
+cursor:pointer;
+}
+
+.filter-btn:hover{
+border-color:#6F4E37;
+color:#6F4E37;
+}
+
+.filter-btn.active{
+background:#6F4E37;
+color:white;
+border:none;
+}
+.product-card:hover{
+    box-shadow:0 0 10px rgba(111,78,55,0.3);
+    transform: scale(1.1);
+}
+.displayProduct{
+    background-image: url('image/product-background.jpg');
+    background-size: cover;
+    background-position: center;
+
+}
+.btn-coffee:hover{
+    background-color: #ffffff!important;
+    border:1px solid #6F4E37!important;
+    color: #6F4E37!important;
+}
+.popup-content{
+    position:absolute;
+}
+#modalImage {
+    max-height: 400px;
+    width: 100%;
+    object-fit: contain;
+}
